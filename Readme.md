@@ -3,7 +3,7 @@
 Privacy Policy
 
 Effective Date: 01 May 2025
-Contact: sat.thakur20@gmail.com
+Contact: <sat.thakur20@gmail.com>
 
 Satyam Thakur (“we”, “our”, or “us”) built the Bio-Guardian app as a free application. This service is provided at no cost and is intended for use as is.
 
@@ -13,6 +13,7 @@ By using the app, you agree to the collection and use of information in relation
 Information Collection and Use
 
 The app may collect the following types of data:
+
 1. Image Uploads
 
 When you use the species recognition feature, you may upload images of animals. These images are only used for identification purposes and are not stored or shared.
@@ -48,5 +49,4 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 Contact Us
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:
-📧 sat.thakur20@gmail.com
-
+📧 <sat.thakur20@gmail.com>
