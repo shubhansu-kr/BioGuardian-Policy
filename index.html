@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy | Bio-Guardian</title>
+  <style>
+    :root {
+      --primary: #2a9d8f;
+      --bg: #f9f9f9;
+      --text: #333;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: white; /* Ensures visibility */
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: var(--primary);
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .accordion {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+    }
+
+    .accordion-header {
+      background-color: #eee;
+      cursor: pointer;
+      padding: 1rem;
+      font-weight: bold;
+    }
+
+    .accordion-content {
+      display: none;
+      padding: 1rem;
+      background-color: white;
+    }
+
+    .accordion.active .accordion-content {
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin: 2rem 0;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>Effective Date: 01 May 2025</p>
+    <p>Contact: <a href="mailto:sat.thakur20@gmail.com" style="color:white;">sat.thakur20@gmail.com</a></p>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        Satyam Thakur (“we”, “our”, or “us”) built the Bio-Guardian app as a free application. This service is provided at no cost and is intended for use as is.
+      </p>
+      <p>
+        This page informs users of our policies regarding the collection, use, and disclosure of personal information for those choosing to use our Service.
+      </p>
+      <p>
+        By using the app, you agree to the collection and use of information in accordance with this policy.
+      </p>
+    </section>
+
+    <!-- First accordion is active by default -->
+    <div class="accordion active">
+      <div class="accordion-header">1. Information Collection and Use</div>
+      <div class="accordion-content">
+        <p><strong>Image Uploads:</strong> Images uploaded for species recognition are used only for that purpose and are neither stored nor shared.</p>
+        <p><strong>Location Information:</strong> May be used to show nearby reserves or endangered species data. Data is anonymized and never used for tracking.</p>
+        <p><strong>Log Data:</strong> In case of errors, logs like device name, OS version, and time of crash may be collected via third-party tools.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">2. Third-Party Services</div>
+      <div class="accordion-content">
+        <p>The app may use the following services that may collect identifying data:</p>
+        <ul>
+          <li>Google Play Services</li>
+          <li>Firebase Analytics (for crash reporting and analytics)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">3. Security</div>
+      <div class="accordion-content">
+        <p>We take reasonable measures to protect personal information. However, no method of transmission over the internet is completely secure.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">4. Children’s Privacy</div>
+      <div class="accordion-content">
+        <p>We do not knowingly collect information from children under 13. If such data is found, it is deleted immediately.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">5. Changes to This Policy</div>
+      <div class="accordion-content">
+        <p>This policy may be updated from time to time. Users are encouraged to review this page periodically for changes. New versions will be posted here with updated effective dates.</p>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header">6. Contact Us</div>
+      <div class="accordion-content">
+        <p>If you have any questions about this Privacy Policy, please contact:</p>
+        <p>Email: <a href="mailto:sat.thakur20@gmail.com">sat.thakur20@gmail.com</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Bio-Guardian | All rights reserved.
+  </footer>
+
+  <script>
+    const accordions = document.querySelectorAll('.accordion-header');
+    accordions.forEach(header => {
+      header.addEventListener('click', () => {
+        const parent = header.parentElement;
+        parent.classList.toggle('active');
+      });
+    });
+  </script>
+</body>
+</html>
